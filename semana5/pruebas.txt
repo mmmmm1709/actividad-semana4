@@ -1,0 +1,9 @@
+Ruta /
+Al acceder a http://localhost:3000 el servidor responde con el mensaje "Servidor activo".
+
+Ruta /saludo
+Al acceder a http://localhost:3000/saludo el servidor responde con el mensaje "Hola comunidad".
+
+Ruta /mensaje/:nombre
+Al acceder a http://localhost:3000/mensaje/juan el servidor responde con el mensaje "Hola juan".
+El valor después de /mensaje/ es dinámico, es decir, cambia según el nombre que se escriba en la URL.
